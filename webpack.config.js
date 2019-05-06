@@ -1,12 +1,7 @@
-const path = require('path');
-const dashboard =require('webpack-dashboard/plugin');
+const dashboardPlugin = require('webpack-dashboard/plugin');
+const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-    entry: './src/index.js',
-    output: {
-        filename: 'main.js',
-        path: path.resolve(__dirname, 'dist')
-    },
     module: {
         rules: [
             {
@@ -15,8 +10,22 @@ module.exports = {
                 use: {
                     loader: "babel-loader"
                 }
+            },
+            {
+                test: /\.html$/,
+                use: [
+                    {
+                        loader: "html-loader"
+                    }
+                ]
             }
         ]
     },
-    plugins: [new dashboard]
+    plugins: [
+        new dashboardPlugin(),
+        new HtmlWebPackPlugin({
+            template: "./index.html",
+            filename: "./index.html"
+        })
+    ]
 };
