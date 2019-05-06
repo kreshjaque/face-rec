@@ -1,4 +1,5 @@
 const path = require('path');
+const dashboard =require('webpack-dashboard/plugin');
 
 module.exports = {
     entry: './src/index.js',
@@ -16,5 +17,6 @@ module.exports = {
                 }
             }
         ]
-    }
+    },
+    plugins: [new dashboard]
 };
