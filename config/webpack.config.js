@@ -1,4 +1,4 @@
-const dashboardPlugin = require('webpack-dashboard/plugin');
+const DashboardPlugin = require('webpack-dashboard/plugin');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
@@ -23,7 +23,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new dashboardPlugin(),
+        new DashboardPlugin(),
         new HtmlWebPackPlugin({
             template: "./index.html",
             filename: "./index.html"
