@@ -27,8 +27,8 @@ module.exports = {
     plugins: [
         new DashboardPlugin(),
         new HtmlWebPackPlugin({
-            template: '../index.html',
-            filename: '../index.html',
+            template: './index.html',
+            filename: './index.html',
         }),
     ],
 };
