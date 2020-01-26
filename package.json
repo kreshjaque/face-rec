@@ -1,9 +1,0 @@
-{
-  "name": "react-webpack-starter-kit",
-  "version": "1.0.0",
-  "description": "React Starter kit",
-  "main": "index.js",
-  "repository": "git@github.com:kreshjaque/react-webpack-starter-kit.git",
-  "author": "Krishna Kumar <kreshjaque@gmail.com>",
-  "license": "MIT"
-}

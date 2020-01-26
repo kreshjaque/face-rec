@@ -63,5 +63,5 @@ typings/
 #IDE
 .idea/
 
-#OD
+#Os
 .DS_Store
