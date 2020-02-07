@@ -1,12 +1,15 @@
 {
   "name": "react-webpack-starter-kit",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
   "repository": "git@github.com:kreshjaque/react-webpack-starter-kit.git",
   "author": "Krishna Kumar <kreshjaque@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build": "webpack --config ./config/webpack.config.js"
   }
 }
