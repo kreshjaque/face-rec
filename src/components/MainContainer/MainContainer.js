@@ -1,7 +1,13 @@
 import React from 'react';
+import { Heading, Ptag } from './MainContainer.styles';
 
 const MainContainer = () => {
-  return <h1>alive</h1>;
+  return (
+    <>
+      <Heading>alive</Heading>
+      <Ptag>still alive</Ptag>
+    </>
+  );
 };
 
 export default MainContainer;
