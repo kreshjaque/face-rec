@@ -5,15 +5,29 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <h1>
+      <h1
+        class="sc-AxjAm wYCMw"
+      >
         alive
       </h1>
+      <p
+        class="sc-AxirZ jTZBVT"
+      >
+        still alive
+      </p>
     </div>
   </body>,
   "container": <div>
-    <h1>
+    <h1
+      class="sc-AxjAm wYCMw"
+    >
       alive
     </h1>
+    <p
+      class="sc-AxirZ jTZBVT"
+    >
+      still alive
+    </p>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
