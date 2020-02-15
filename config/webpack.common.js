@@ -1,5 +1,6 @@
 const path = require('path');
-const HtmlWebPackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const DashboardPlugin = require('webpack-dashboard/plugin');
 
 module.exports = {
@@ -28,11 +29,13 @@ module.exports = {
     ],
   },
   plugins: [
-    new HtmlWebPackPlugin({
+    new DashboardPlugin(),
+    new CleanWebpackPlugin(),
+    new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
+      title: 'Production',
     }),
-    new DashboardPlugin()
   ],
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
