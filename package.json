@@ -64,7 +64,7 @@
       "eslint",
       "pretty-quick — staged"
     ],
-    "config/*.{js}": [
+    "config/*.js": [
       "eslint",
       "pretty-quick — staged"
     ]
