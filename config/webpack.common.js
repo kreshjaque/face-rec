@@ -28,6 +28,7 @@ module.exports = {
       },
     ],
   },
+  // test
   plugins: [
     new DashboardPlugin(),
     new CleanWebpackPlugin(),
