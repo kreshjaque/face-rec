@@ -63,6 +63,10 @@
     "src/**/*.{js,jsx}": [
       "eslint",
       "pretty-quick — staged"
+    ],
+    "config/*.{js}": [
+      "eslint",
+      "pretty-quick — staged"
     ]
   }
 }

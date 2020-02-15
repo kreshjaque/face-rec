@@ -1,4 +1,5 @@
 const path = require('path');
+// eslint-disable  import/no-extraneous-dependencies
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const DashboardPlugin = require('webpack-dashboard/plugin');
