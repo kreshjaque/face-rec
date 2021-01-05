@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 import { render } from 'react-dom';
-import './common.css';
+import { Heading } from './common.styles';
 
 function App() {
   const [state, setState] = useState('CLICK ME');
 
   return (
-    <button type="button" onClick={() => setState('CLICKED')}>
-      {state}
-    </button>
+    <>
+      <Heading>Alive</Heading>
+      <button type="button" onClick={() => setState('CLICKED')}>
+        {state}
+      </button>
+      ]
+    </>
   );
 }
 
