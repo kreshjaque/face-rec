@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { render } from 'react-dom';
 import { Heading } from './common.styles';
 
-function App() {
+const App = () => {
   const [state, setState] = useState('CLICK ME');
 
   return (
