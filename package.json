@@ -51,18 +51,13 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "lint-push"
+      "pre-push": "jest"
     }
   },
   "lint-staged": {
     "src/**/*.{js,jsx}": [
       "eslint",
       "pretty-quick — staged"
-    ]
-  },
-  "lint-push": {
-    "src/**/*.{js,jsx}": [
-      "jest"
     ]
   }
 }
