@@ -46,12 +46,12 @@
     "lint": "eslint src/",
     "prettier:fix": "prettier --write ./src",
     "lint:fix": "eslint --fix ./src",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "jest"
+      "pre-push": "yarn test"
     }
   },
   "lint-staged": {
