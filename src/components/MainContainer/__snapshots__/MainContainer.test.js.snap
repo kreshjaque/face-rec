@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainContainer should render the component 1`] = `
+<main
+  className="sc-bdfBwQ"
+>
+  <p>
+    dummy test
+  </p>
+</main>
+`;
