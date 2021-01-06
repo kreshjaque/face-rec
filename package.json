@@ -58,5 +58,10 @@
       "eslint",
       "pretty-quick — staged"
     ]
+  },
+  "lint-push": {
+    "src/**/*.{js,jsx}": [
+      "jest"
+    ]
   }
 }
