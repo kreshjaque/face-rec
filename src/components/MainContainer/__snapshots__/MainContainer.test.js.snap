@@ -2,7 +2,7 @@
 
 exports[`MainContainer should render the component 1`] = `
 <main
-  className="sc-bdfBwQ"
+  className="sc-bdnxRM"
 >
   <p>
     dummy test
